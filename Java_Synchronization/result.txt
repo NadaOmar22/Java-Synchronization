@@ -1,0 +1,35 @@
+(aa)  (aa)  arrived
+Connection 1 : aa occupied
+(cc)  (cc)  arrived
+(bb)  (bb)  arrived
+Connection 2 : cc occupied
+Connection 3 : bb occupied
+Connection 3 : bb login
+Connection 2 : cc login
+Connection 1 : aa login
+Connection 1 : aa perform operations
+Connection 1 : aa log out
+Connection 3 : bb perform operations
+Connection 3 : bb log out
+Connection 2 : cc perform operations
+Connection 2 : cc log out
+(C1)  (mobile)  arrived
+(C3)  (pc)  arrived
+Connection 1 : C1 occupied
+(C4)  (pc)  arrived and waiting
+Connection 2 : C3 occupied
+(C2)  (tablet)  arrived and waiting
+Connection 1 : C1 login
+Connection 2 : C3 login
+Connection 2 : C3 perform operations
+Connection 1 : C1 perform operations
+Connection 2 : C3 log out
+Connection 1 : C1 log out
+Connection 1 : C4 occupied
+Connection 1 : C4 login
+Connection 2 : C2 occupied
+Connection 2 : C2 login
+Connection 2 : C2 perform operations
+Connection 1 : C4 perform operations
+Connection 2 : C2 log out
+Connection 1 : C4 log out
